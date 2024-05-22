@@ -57,7 +57,7 @@ submit.addEventListener('click', function() {
         updateBoard();
         input.value = ''; // Clear input after guess
     } else {
-        alert('YOU ARE STUFFED IN A FREDDY SUIT');
+        alert('Word must be 5 letters!');
     }
 });
 
